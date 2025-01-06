@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/pair-with-given-sum-in-a-sorted-array4940/1">Pair with given sum in a sorted array</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 20px;">You are given an integer <strong>target</strong> and an array <strong>arr[]</strong>. You have to find number of pairs in <strong>arr[]</strong> which sums up to <strong>target</strong>. It is given that the elements of the <strong>arr[]</strong> are in <strong>sorted </strong>order.<br><strong>Note:</strong> pairs should have elements of distinct indexes.&nbsp;</span></p>
+<p><span style="font-size: 20px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 20px;"><strong>Input: </strong>arr[] = [-1, 1, 5, 5, 7], target = 6
+<strong>Output: </strong>3
+<strong>Explanation: </strong>There are 2 pairs which sum up to 6 : {1, 5}, {1, 5} and {-1, 7}.
+</span></pre>
+<pre><span style="font-size: 20px;"><strong>Input: </strong>arr[] = [1, 1, 1, 1], target = 2<br></span><strong style="font-size: 20px;">Output: </strong><span style="font-size: 20px;">6<br></span><strong style="font-size: 20px;">Explanation: </strong><span style="font-size: 20px;">There are 6 pairs which sum up to 2 : {<span style="color: #273239; font-family: Nunito, sans-serif; font-size: 14pt; letter-spacing: 0.162px; text-wrap-mode: wrap; background-color: #f9f9f9;">1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1} and {1, 1}.</span></span></pre>
+<pre><span style="font-size: 20px;"><strong>Input: </strong>arr[] = [-1, 10, 10, 12, 15], target = 125
+<strong>Output: </strong>0
+<strong>Explanation: </strong>There is no such pair which sums up to 4.</span></pre>
+<p><span style="font-size: 20px;"><strong>Constraints:</strong><br>-10<sup>5</sup> &lt;= target &lt;=10<sup>5</sup><br>&nbsp;2 &lt;= arr.size() &lt;= 10<sup>5</sup><br>-10<sup>5</sup> &lt;= arr[i] &lt;= 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Adobe</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>two-pointer-algorithm</code>&nbsp;<code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
