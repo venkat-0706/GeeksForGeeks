@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/container-with-most-water0535/1">Container With Most Water</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given an array&nbsp;<strong>arr[]&nbsp;</strong>of non-negative integers,&nbsp;where each element <code>arr[i]</code> represents the height of the <strong>vertical lines,&nbsp;</strong>find the <strong>maximum amount of water</strong> that can be contained between any two lines, together with the x-axis.</span></p>
+<p><span style="font-size: 14pt;">Note: In the case of a single vertical line it will not be able to hold water.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [1, 5, 4, 3]
+<strong>Output: </strong>6<strong>
+Explanation: </strong>5 and 3 are 2 distance apart. So the size of the base is 2. Height of container = min(5, 3) = 3. So, total area to hold water = 3 * 2 = 6.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>arr[] = [3, 1, 2, 4, 5]
+<strong>Output: </strong>12<strong>
+Explanation: </strong>5 and 3 are 4 distance apart. So the size of the base is 4. Height of container = min(5, 3) = 3. So, total area to hold water = 4 * 3 = 12.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input</strong>: arr[] = [2, 1, 8, 6, 4, 6, 5, 5]<br><strong>Output</strong>: 25 <br><strong>Explanation</strong>: 8 and 5 are 5 distance apart. So the size of the base is 5. Height of container = min(8, 5) = 5. So, the total area to hold water = 5 * 5 = 25.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1&lt;= arr.size() &lt;=10<sup>5</sup><br>1&lt;= arr[i] &lt;=10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Puzzles</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
