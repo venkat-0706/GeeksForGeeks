@@ -1,13 +1,13 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/0">Rotate a Linked List</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given the&nbsp;</span><strong style="font-size: 18px;">head </strong><span style="font-size: 18px;">of a singly linked list,</span><span style="font-size: 18px;"> the task is to rotate&nbsp;</span><span style="font-size: 18px;">the</span><span style="font-size: 18px;"><span>&nbsp;<strong>left shift</strong></span><span>&nbsp;of the linked list by&nbsp;</span><strong>k</strong><span>&nbsp;nodes,</span></span><span style="font-size: 18px;">&nbsp;where </span><strong style="font-size: 18px;">k</strong><span style="font-size: 18px;"> is a given positive integer smaller than or equal to the length of the linked list.</span></p>
-<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>linkedlist: 2-&gt;4-&gt;7-&gt;8-&gt;9 , k = 3
-<strong>Output: </strong>8-&gt;9-&gt;2-&gt;4-&gt;7<strong>
-Explanation:<br></strong></span><span style="font-size: 18px;"><strong>Rotate 1:&nbsp;</strong>4 -&gt; 7 -&gt; 8 -&gt; 9 -&gt; 2</span>
-<span style="font-size: 18px;"><strong>Rotate 2:</strong>&nbsp;7&nbsp;-&gt; 8&nbsp;-&gt; 9&nbsp;-&gt; 2&nbsp;-&gt; 4</span>
-<span style="font-size: 18px;"><strong>Rotate 3:</strong>&nbsp;8&nbsp;-&gt; 9&nbsp;-&gt; 2&nbsp;-&gt; 4&nbsp;-&gt; 7<br></span><strong style="font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700023/Web/Other/blobid0_1721799624.png" width="400" height="160"></strong>
-</pre>
-<pre><span style="font-size: 18px;"><strong>Input: </strong>linkedlist: 1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;6-&gt;7-&gt;8 , k = 4
-<strong>Output: </strong>5-&gt;6-&gt;7-&gt;8-&gt;1-&gt;2-&gt;3-&gt;4<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700023/Web/Other/blobid1_1721799675.png" width="400" height="160"></span>
-</pre>
-<p><span style="font-size: 18px;"><strong>Expected Time Complexity:&nbsp;</strong>O(n)<br><strong>Expected Auxiliary Space:&nbsp;</strong>O(1)</span></p>
-<p><span style="font-size: 18px;"><strong style="font-size: 18px;">Constraints:</strong><br><span style="font-size: 18px;">1 &lt;= number of nodes &lt;= 10</span><sup style="font-size: 18px;">3<br></sup><span style="font-size: 18px;">1 &lt;= node -&gt; data &lt;= 10<sup>4</sup></span><br><span style="font-size: 18px;">1 &lt;= k &lt;=&nbsp;</span></span><span style="font-size: 18px;">number of nodes</span><span style="font-size: 18px;">&nbsp;</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
+<h2><a href="https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1">Rotate a Linked List</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given the <strong>head</strong> of a singly linked list, your task is to <strong>left rotate</strong> the linked list&nbsp;<strong>k</strong> times.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head<strong> =</strong> 10 -&gt; 20 -&gt; 30 -&gt; 40 -&gt; 50, k = 4
+<strong>Output: </strong>50 -&gt; 10 -&gt; 20 -&gt; 30 -&gt; 40<strong>
+Explanation:<br></strong>Rotate 1:<strong> </strong>20 -&gt; 30 -&gt; 40 -&gt; 50 -&gt; 10</span><br><span style="font-size: 14pt;">Rotate 2:<strong> </strong>30 -&gt; 40 -&gt; 50 -&gt; 10 -&gt; 20</span><br><span style="font-size: 14pt;">Rotate 3:<strong> </strong>40 -&gt; 50 -&gt; 10 -&gt; 20 -&gt; 30</span><br><span style="font-size: 14pt;">Rotate 4:<strong> </strong>50 -&gt; 10 -&gt; 20 -&gt; 30 -&gt; 40</span><br><span style="font-size: 14pt;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/885669/Web/Other/blobid0_1737098802.webp" height="100"></span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head = 10 -&gt; 20 -&gt; 30 -&gt; 40 , k = 6
+<strong>Output: </strong>30 -&gt; 40 -&gt; 10 -&gt; 20 <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/885669/Web/Other/blobid3_1737099041.webp" height="100"> </span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br></span></p>
+<ul>
+<li><span style="font-size: 14pt;">1 &lt;= number of nodes &lt;= 10<sup>5</sup></span></li>
+<li><span style="font-size: 14pt;">0 &lt;= k &lt;= 10<sup>9</sup></span></li>
+<li><span style="font-size: 14pt;">0 &lt;= data of node &lt;= 10<sup>9</sup></span></li>
+</ul></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>Data Structures</code>&nbsp;
