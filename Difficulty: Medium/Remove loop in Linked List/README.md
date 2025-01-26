@@ -1,0 +1,16 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1">Remove loop in Linked List</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given the head of a linked list that may contain a loop.&nbsp; A loop means that the last node of the linked list is connected back to a node in the same list. The task is to remove the loop from the linked list (if it exists).</span></p>
+<p><span style="font-size: 14pt;"><strong>Custom Input format:</strong></span></p>
+<p><span style="font-size: 14pt;">A <strong>head </strong>of a singly linked list and a <strong>pos </strong>(1-based index) which denotes the position of the node to which the last node points to. If <strong>pos = 0</strong>, it means the last node points to null, indicating there is no loop.</span></p>
+<p><span style="font-size: 14pt;">The generated output will be&nbsp;<strong>true </strong>if there is no loop in list and other nodes in the list remain unchanged, otherwise, <strong>false</strong>.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head =<strong> </strong>1 -&gt; 3 -&gt; 4, pos = 2
+<strong>Output: </strong>true<strong>
+Explanation: </strong>The linked list looks like<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700332/Web/Other/blobid0_1718609709.png" width="403" height="161"><br>A loop is present in the list, and it is removed.
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head = 1 -&gt; 8 -&gt; 3 -&gt; 4, pos = 0
+<strong>Output: </strong>true<strong>
+Explanation: <br></strong><strong><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700332/Web/Other/blobid0_1718609876.png" height="100"><br></strong>The Linked list does not contains any loop. </span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>head =<strong> </strong>1 -&gt; 2 -&gt; 3 -&gt; 4, pos = 1
+<strong>Output: </strong>true<strong>
+Explanation: </strong>The linked list looks like <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700332/Web/Other/blobid2_1718609744.png" width="400" height="160"><br>A loop is present in the list, and it is removed.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ size of linked list ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Oracle</code>&nbsp;<code>Walmart</code>&nbsp;<code>Goldman Sachs</code>&nbsp;<code>Adobe</code>&nbsp;<code>Qualcomm</code>&nbsp;<code>Kuliza</code>&nbsp;<code>Netskope</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Linked List</code>&nbsp;<code>two-pointer-algorithm</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
