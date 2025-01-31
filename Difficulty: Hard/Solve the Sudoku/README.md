@@ -1,0 +1,18 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1">Solve the Sudoku</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an&nbsp;incomplete&nbsp;<a href="https://www.geeksforgeeks.org/introduction-to-sudoku-puzzles-and-how-to-solve-them/"><strong>Sudoku</strong></a> configuration in terms of a 9x9&nbsp; 2-D interger square matrix, <strong>mat[][]</strong>, the task is to solve the Sudoku.&nbsp;</span><span style="font-size: 18px;">It is <strong>guaranteed </strong>that the input Sudoku will have exactly <strong>one </strong>solution.</span></p>
+<p><span style="font-size: 18px;">A sudoku solution must satisfy&nbsp;all of the following rules:</span></p>
+<ol>
+<li><span style="font-size: 18px;">Each of the digits&nbsp;<code>1-9</code>&nbsp;must occur exactly once in each row.</span></li>
+<li><span style="font-size: 18px;">Each of the digits&nbsp;<code>1-9</code>&nbsp;must occur exactly once in each column.</span></li>
+<li><span style="font-size: 18px;">Each of the digits&nbsp;<code>1-9</code>&nbsp;must occur exactly once in each of the 9&nbsp;<code>3x3</code>&nbsp;sub-boxes of the grid.</span></li>
+</ol>
+<p><span style="font-size: 18px;"><strong>Note:</strong> Zeros represent blanks to be filled with numbers 1-9, while non-zero cells are <strong>fixed </strong>and cannot be changed.</span><span style="font-size: 18px;"><br></span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">mat[][] = 
+</span><span style="font-size: 18px;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/886267/Web/Other/blobid0_1738136756.png" alt="" width="262" height="208">
+</span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;">
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/886267/Web/Other/blobid1_1738127837.png" alt="" width="260" height="207"><br></span><strong style="font-size: 18px;">Explanation:</strong><span style="font-size: 18px;"> Each row, column and 3 x 3 box of the output matrix contains unique numbers.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">mat[][] = 
+</span><span style="font-size: 18px;"><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/886267/Web/Other/blobid1_1738136756.png" alt="" width="262" height="209">
+</span><strong style="font-size: 18px;">Output:</strong><span style="font-size: 18px;">
+<img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/886267/Web/Other/blobid1_1738127837.png" alt="" width="260" height="207"><br></span><strong style="font-size: 18px;">Explanation:</strong><span style="font-size: 18px;"> Each row, column and 3 x 3 box of the output matrix contains unique numbers.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>mat.size() = 9<br>mat[i].size() = 9<br>0 ≤ mat[i][j] ≤ 9<br></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Zoho</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Oracle</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>Directi</code>&nbsp;<code>PayPal</code>&nbsp;<code>Samsung</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Matrix</code>&nbsp;<code>Backtracking</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
