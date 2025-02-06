@@ -1,4 +1,4 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1">Kadane's Algorithm</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array <strong>arr[].</strong> You need to find and&nbsp;return the <strong>maximum</strong> sum possible from all the subarrays.</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&sortBy=submissions">Kadane's Algorithm</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an integer array <strong>arr[].</strong> You need to find the <strong>maximum</strong> sum of a subarray.<br></span></p>
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input: </strong></span><span style="font-size: 18px;">arr[] = [2, 3, -8, 7, -1, 2, 3]</span><span style="font-size: 18px;">
 <strong>Output: </strong>11<strong>
