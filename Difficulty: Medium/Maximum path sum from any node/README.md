@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/maximum-path-sum-from-any-node/1">Maximum path sum from any node</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a binary tree,&nbsp;the task is to find the maximum path sum. The path may start and end at any node in the tree.</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root[] = [10, 2, 10, 20, 1, N, -25, N, N, N, N, 3, 4]
+<strong>Output: </strong>42<strong>
+Explanation: </strong><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700611/Web/Other/blobid3_1736948585.png" alt="" width="481" height="307"><br>Max path sum is represented using green colour nodes in the above binary tree.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root[] = [-17, 11, 4, 20, -2, 10]
+<strong>Output: </strong>31<strong>
+Explanation: <br></strong><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/700611/Web/Other/blobid1_1736947534.png" alt="" width="479" height="418"><br>Max path sum is represented using green colour nodes in the above binary tree.</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong><br>1 ≤ number of nodes ≤ 10<sup>3</sup><br>-10<sup>4</sup> ≤ node-&gt;data ≤ 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Google</code>&nbsp;<code>Facebook</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
