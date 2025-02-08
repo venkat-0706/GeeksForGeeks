@@ -1,28 +1,32 @@
-<h2><a href="https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1?page=2&sortBy=submissions">Tree Boundary Traversal</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a Binary Tree, find its Boundary Traversal. The traversal should be in the following order:&nbsp;</span></p>
+<h2><a href="https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1">Tree Boundary Traversal</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 14pt;">Given a Binary Tree, find its Boundary Traversal. The traversal should be in the following order:&nbsp;</span></p>
 <ol>
-<li><span style="font-size: 18px;"><strong>Left boundary nodes:</strong>&nbsp;defined as the path from the root to the left-most node&nbsp;</span><span style="font-size: 18px;">ie- the&nbsp;leaf node you could reach when you always travel preferring&nbsp;the left subtree over the&nbsp;right subtree.&nbsp;</span></li>
-<li><span style="font-size: 18px;"><strong>Leaf nodes:&nbsp;</strong>All the leaf nodes except for the ones that are part of left or right boundary.</span></li>
-<li><span style="font-size: 18px;"><strong>Reverse right boundary nodes:</strong>&nbsp;defined as the path from&nbsp;the right-most node to the&nbsp;root. The&nbsp;right-most node is&nbsp;the&nbsp;leaf node you could reach when you always travel preferring&nbsp;the right subtree over the&nbsp;left subtree.&nbsp;Exclude the root from this as it was already included in the traversal of left boundary nodes.</span></li>
+<li>
+<p data-pm-slice="1 1 []"><span style="font-size: 14pt;"><strong>Left Boundary:</strong> This includes all the nodes on the path from the root to the leftmost leaf node. You must prefer the left child over the right child when traversing. Do not include leaf nodes in this section.</span></p>
+</li>
+<li>
+<p data-pm-slice="1 1 []"><span style="font-size: 14pt;"><strong>Leaf Nodes:</strong> All leaf nodes, in left-to-right order, that are not part of the left or right boundary.</span></p>
+</li>
+<li>
+<p data-pm-slice="1 1 []"><span style="font-size: 14pt;"><strong>Reverse Right Boundary: </strong>This includes all the nodes on the path from the rightmost leaf node to the root, traversed in reverse order. You must prefer the right child over the left child when traversing. Do not include the root in this section if it was already included in the left boundary.</span></p>
+</li>
 </ol>
-<p><span style="font-size: 18px;"><strong>Note:</strong> If the root doesn't have a left subtree or right subtree, then the root itself is the left&nbsp;or right boundary.&nbsp;</span><br><br><strong><span style="font-size: 18px;">Example 1:</span></strong></p>
-<pre><strong><span style="font-size: 18px;">Input:
-        </span></strong><span style="font-size: 18px;">1 
+<p><span style="font-size: 14pt;">Note: If the root doesn't have a left subtree or right subtree, then the root itself is the left or right boundary.&nbsp;</span></p>
+<p><span style="font-size: 14pt;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 14pt;"><strong>Input:</strong> root[] = [1, 2, 3, 4, 5, 6, 7, N, N, 8, 9, N, N, N, N] 
+        1 
 &nbsp;     /   \
-&nbsp;    2     3</span><strong><span style="font-size: 18px;">&nbsp; 
-&nbsp;   </span></strong><span style="font-size: 18px;">/ \   / \ 
+&nbsp;    2     3<strong>&nbsp; 
+&nbsp;   </strong>/ \   / \ 
 &nbsp;  4   5 6   7
 &nbsp;     / \
-&nbsp;    8   9</span><strong><span style="font-size: 18px;">
+&nbsp;    8   9<strong>
    
-Output: </span></strong><span style="font-size: 18px;">1 2 4 8 9 6 7 3</span><strong><span style="font-size: 18px;">
+Output: </strong>[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">3</span>]<strong>
 Explanation:
-</span></strong><span style="font-size: 18px;"><strong><img style="height: 300px; width: 300px;" src="https://media.geeksforgeeks.org/wp-content/uploads/20211103204119/graph4-300x300.png" alt=""></strong></span>
-
-</pre>
-<p>&nbsp;</p>
-<p><strong><span style="font-size: 18px;">Example 2:</span></strong></p>
-<pre><strong><span style="font-size: 18px;">Input:</span></strong>
-<span style="font-size: 18px;">            1
+</strong><strong><img style="height: 300px; width: 300px;" src="https://media.geeksforgeeks.org/wp-content/uploads/20211103204119/graph4-300x300.png" alt=""></strong>
+</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root[] = [1, 2, N, 4, 9, 6, 5, N, 3, N, N, N, N 7, 8] 
+            1
            /
           2
         /  \
@@ -31,11 +35,10 @@ Explanation:
     6    5    3
              /  \
             7     8
-</span><strong><span style="font-size: 18px;">
-Output: </span></strong><span style="font-size: 18px;">1 2 4 6 5 7 8
+<strong>
+Output: </strong>[<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">4</span>, <span class="hljs-number">6</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>]
 <strong>Explanation:
 </strong><a href="https://contribute.geeksforgeeks.org/wp-content/uploads/boundary.png"><img style="float: left; height: 300px; width: 300px;" src="https://media.geeksforgeeks.org/wp-content/uploads/20211103204646/graph1-300x300.png" alt=""></a>
-</span>
 
 
 
@@ -47,9 +50,19 @@ Output: </span></strong><span style="font-size: 18px;">1 2 4 6 5 7 8
 
 
 
-
-
-<span style="font-size: 18px;">As you can see we have not taken the right subtree. </span></pre>
-<p><strong><span style="font-size: 18px;">Y</span></strong><strong><span style="font-size: 18px;">our Task:</span></strong><br><span style="font-size: 18px;">This is a function problem. You don't have to take input. Just complete the <strong>function boundary()&nbsp;</strong>that takes the root node<strong>&nbsp;</strong>as input<strong>&nbsp;</strong>and returns an array containing&nbsp;the boundary values in anti-clockwise.</span></p>
-<p><span style="font-size: 18px;"><strong>Expected Time Complexity:</strong> O(N).&nbsp;<br><strong>Expected Auxiliary Space:</strong> O(Height of the Tree).</span></p>
-<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1 ≤ Number of nodes ≤ 10<sup>5</sup></span><br><span style="font-size: 18px;">1 ≤ Data of a node ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>FactSet</code>&nbsp;<code>Hike</code>&nbsp;<code>Payu</code>&nbsp;<code>Kritikal Solutions</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
+As the root doesn't have a right subtree, the right boundary is not included in the traversal.</span></pre>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root[] = [1, N, 2, N, 3, N, 4, N, N] 
+    <span class="hljs-number">1</span>
+     <span class="hljs-string">\</span>
+      <span class="hljs-number">2</span>
+       <span class="hljs-string">\</span>
+        <span class="hljs-number">3</span>
+         <span class="hljs-string">\</span>
+          <span class="hljs-number">4</span>
+<strong>
+Output: </strong>[<span class="hljs-number">1</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>]
+<strong>Explanation:<br></strong><span class="hljs-attr">Left boundary:</span> [<span class="hljs-number">1</span>] <span class="hljs-string">(as</span> <span class="hljs-string">there</span> <span class="hljs-string">is</span> <span class="hljs-literal">no</span> <span class="hljs-string">left</span> <span class="hljs-string">subtree)</span>
+<span class="hljs-attr">Leaf nodes:</span> [<span class="hljs-number">4</span>]
+<span class="hljs-attr">Right boundary:</span> [<span class="hljs-number">3</span>, <span class="hljs-number">2</span>] <span class="hljs-string">(in</span> <span class="hljs-string">reverse</span> <span class="hljs-string">order)</span>
+<span class="hljs-attr">Final traversal:</span> [<span class="hljs-number">1</span>, <span class="hljs-number">4</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>]</span></pre>
+<p><span style="font-size: 14pt;"><strong>Constraints:</strong></span><br><span style="font-size: 14pt;">1 ≤ number of nodes ≤ 10<sup>5</sup></span><br><span style="font-size: 14pt;">1 ≤ node-&gt;data ≤ 10<sup>5</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Samsung</code>&nbsp;<code>Snapdeal</code>&nbsp;<code>FactSet</code>&nbsp;<code>Hike</code>&nbsp;<code>Payu</code>&nbsp;<code>Kritikal Solutions</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;<code>Data Structures</code>&nbsp;
