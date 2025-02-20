@@ -1,0 +1,16 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-median-in-a-stream-1587115620/1">Find median in a stream</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given a data stream&nbsp;<strong>arr[]</strong>&nbsp;where integers are read sequentially,</span><span style="font-size: 18px;">&nbsp;</span><span style="font-size: 18px;">the task is to determine the median of the elements encountered so far after each new integer is read.</span></p>
+<p><span style="font-size: 18px;">There are two cases for median on the basis of data set size.</span></p>
+<p><span style="font-size: 18px;">1. If the data set has an odd number then the <strong>middle </strong>one will be consider as median.<br></span><span style="font-size: 18px;">2. If the data set has an even number then there is no distinct middle value and the median will be the <strong>arithmetic mean of the two</strong> middle values.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input:  </strong>arr[] = [5, 15, 1, 3, 2, 8]<strong>
+Output: </strong>[5.0, 10.0, 5.0, 4.0, 3.0, 4.0] <strong>
+Explanation: 
+</strong>After reading 1st element of stream – 5 -&gt; median = 5.0
+After reading 2nd element of stream – 5, 15 -&gt; median = (5+15)/2 = 10.0 
+After reading 3rd element of stream – 5, 15, 1 -&gt; median = 5.0
+After reading 4th element of stream – 5, 15, 1, 3 -&gt;  median = (3+5)/2 = 4.0
+After reading 5th element of stream – 5, 15, 1, 3, 2 -&gt; median = 3.0
+After reading 6th element of stream – 5, 15, 1, 3, 2, 8 -&gt;  median = (3+5)/2 = 4.0</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [2, 2, 2, 2]</span><br><span style="font-size: 18px;"><strong>Output: </strong>[2.0, 2.0, 2.0, 2.0]</span><br><span style="font-size: 18px;"><strong>Explanation: </strong></span><br><span style="font-size: 18px;">After reading 1st element of stream – 2 -&gt; median = 2.0</span><br><span style="font-size: 18px;">After reading 2nd element of stream – 2, 2 -&gt; median = (2+2)/2 = 2.0</span><br><span style="font-size: 18px;">After reading 3rd element of stream – 2, 2, 2 -&gt; median = 2.0</span><br><span style="font-size: 18px;">After reading 4th element of stream – 2, 2, 2, 2 -&gt;&nbsp; median = (2+2)/2 = 2.0</span></pre>
+<div><span style="font-size: 18px;"><strong>Constraints:</strong></span></div>
+<div><span style="font-size: 18px;">1<strong>&nbsp;</strong>&lt;= arr.size() &lt;= 10<sup>5</sup></span><br><span style="font-size: 18px;">1 &lt;= x &lt;= 10<sup>6</sup></span></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Morgan Stanley</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Samsung</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Oracle</code>&nbsp;<code>Intuit</code>&nbsp;<code>Adobe</code>&nbsp;<code>Google</code>&nbsp;<code>SAP Labs</code>&nbsp;<code>Facebook</code>&nbsp;<code>Yahoo</code>&nbsp;<code>Belzabar</code>&nbsp;<code>Apple</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Heap</code>&nbsp;<code>Design-Pattern</code>&nbsp;<code>Data Structures</code>&nbsp;
