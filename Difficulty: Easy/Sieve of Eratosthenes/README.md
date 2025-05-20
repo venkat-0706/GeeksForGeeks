@@ -1,0 +1,11 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/sieve-of-eratosthenes5242/1">Sieve of Eratosthenes</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p data-start="24" data-end="165"><span style="font-size: 14pt;">Given a positive integer <strong>n</strong>, calculate and return all prime numbers less than or equal to <strong>n</strong> using the <strong data-start="129" data-end="154">Sieve of Eratosthenes</strong> algorithm.</span></p>
+<p><span style="font-size: 14pt;"> </span></p>
+<p data-start="167" data-end="275"><span style="font-size: 14pt;">A <strong data-start="169" data-end="185">prime number</strong> is a natural number greater than 1 that has no positive divisors other than 1 and itself.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 10</span>
+<strong><span style="font-size: 18px;">Output: </span></strong><span style="font-size: 18px;">2 3 5 7</span>
+<strong><span style="font-size: 18px;">Explanation: </span></strong><span style="font-size: 18px;">Prime numbers less than equal to 10 are 2 3 5 and 7.</span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 18px;">n = 35</span>
+<span style="font-size: 18px;"><strong>Output: </strong>2 3 5 7 11 13 17 19 23 29 31</span>
+<span style="font-size: 18px;"><strong>Explanation: </strong>Prime numbers less than equal to 35 are 2 3 5 7 11 13 17 19 23 29 and 31.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1&lt;= n &lt;= 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>VMWare</code>&nbsp;<code>MAQ Software</code>&nbsp;<code>SAP Labs</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;<code>sieve</code>&nbsp;<code>Algorithms</code>&nbsp;
