@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1">Unique Number III</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array of integers&nbsp;<strong>arr[]</strong>&nbsp;where,&nbsp;every element&nbsp;<strong>appears</strong>&nbsp;<strong>thrice&nbsp;</strong>except for one which&nbsp;<strong>occurs</strong>&nbsp;<strong>once</strong>.</span><br><span style="font-size: 18px;">Find that element which&nbsp;<strong>occurs</strong>&nbsp;<strong>once</strong>.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [1, 10, 1, 1]
+<strong>Output: </strong>10<strong>
+Explanation: </strong>10 occurs once in the array while the other element 1 occurs thrice.</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = [3, 2, 1, 34, 34, 1, 2, 34, 2, 1]
+<strong>Output: </strong>3<strong>
+Explanation: </strong>All elements except 3 occurs thrice in the array.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:<br></strong>1&nbsp;</span><span style="font-size: 18px;">≤ </span><span style="font-size: 18px;">arr.size()&nbsp;</span><span style="font-size: 18px;">≤&nbsp;</span><span style="font-size: 18px;">10</span><sup>5<br></sup><span style="font-size: 18px;">arr.size() % 3 = 1</span><sup><br></sup><span style="font-size: 18px;">-10</span><sup>9</sup><span style="font-size: 18px;">&nbsp;≤ arr[i] ≤ 10</span><sup>9</sup></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Google</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Mathematical</code>&nbsp;<code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
